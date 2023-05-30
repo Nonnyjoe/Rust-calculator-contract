@@ -10,8 +10,7 @@ fn main() {
     let tcapacity: usize = title.capacity();
     let mut my_vector: Vec<i32> = Vec::new();
     my_vector = vec![12, 15, 18];
-
-    println!("{}", my_vector[2]);
+    let my_array:<i32> = [1, 2, 3];
     println!("{}", title);
     println!("title length = {}", tlength);
     println!("title capacity = {}", tcapacity);
