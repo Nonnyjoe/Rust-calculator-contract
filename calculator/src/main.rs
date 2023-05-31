@@ -25,7 +25,7 @@ fn main() {
     println!("{}", divide(numa, numb));
     println!("{}", multiply(numa, numb));
 }
-fn add(num1: u128, num2: u128) -> u128 {
+fn add(num1: &u128, num2: u128) -> u128 {
     return (num1 + num2);
 }
 
