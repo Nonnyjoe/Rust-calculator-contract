@@ -1,16 +1,16 @@
 use std::u128;
 
 fn main() {
-    let my_vectors: Vec<i32> = vec![1, 3, 4];
+    let my_vectors: Vec<i32> = vec![1, 3, 4, 5];
     let a: u16 = 25;
-    let _b: u16 = a;
+    let _b: u16 = &a;
     let mut title = String::from("solana ");
     title.push_str("Bootcmap");
     let tlength: usize = title.len();
     let tcapacity: usize = title.capacity();
     let mut my_vector: Vec<i32> = Vec::new();
-    my_vector = vec![12, 15, 18];
-    let my_array:<i32> = [1, 2, 3];
+    my_vector = vec![12, 15, 18, 21];
+    let my_array:<i32> = [1, 2, 3, 4];
     println!("{}", title);
     println!("title length = {}", tlength);
     println!("title capacity = {}", tcapacity);
